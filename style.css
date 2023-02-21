@@ -1,0 +1,72 @@
+* {
+	box-sizing: border-box;
+}
+
+h1, h2, h3 {
+	font-size: 55px;
+	text-align: left;
+	color: white;
+	padding-top, padding-bottom: 30px;
+	line-height: 40px;
+}
+h2 {
+	display: inline-block;
+	vertical-align: middle;
+}
+p {
+	font-size: 35px;
+	text-align: right;
+	color: white;
+	margin-right: 0px;
+	/*margin-left: 50px;*/
+	display: inline-block;
+	vertical-align: middle;
+}
+.titlebox {
+	background-color: #FF369B;
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-top: 10%;
+	/*margin-top: 20%;
+	margin-bottom: 20%;
+	height: 60%;*/
+	text-align: center;
+	left: 50%;
+	right: 50%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 50px;
+	padding-right: 50px;
+	font-family: sans-serif;
+	vertical-align: middle;
+} 
+.third {
+	/*display: inline-block;*/
+	/*text-align: center;*/
+	width: fit-content;
+}
+.buttons {
+	margin-top: 40px;
+	vertical-align: middle;
+	text-align: center;
+	box-align: center;
+	margin-left, margin-right: 30%;
+	padding-right, padding-left: 100px;
+}
+.button {
+	display: inline-block;
+	height: 85px;
+	width: 140px;
+	background-color: #FF369B;
+	color: white;
+	font-family: sans-serif;
+	font-size: 20px;
+}
+.button1 {
+	display: inline-block;
+	margin-right: 30px;
+}
+.button2 {
+	display: inline-block;
+	margin-left: 30px;
+}
