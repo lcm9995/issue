@@ -1,38 +1,64 @@
 * {
 	box-sizing: border-box;
+	margin-left, margin-right: 20px;
+	margin-top, margin-bottom: 10px;
+}
+h1, h2, h3, h4, h5 {
+	color: white;
+	font-family: sans-serif;
+}
+.first {
+	text-align: center;
+	font-size: 55px;
+	padding-top, padding-bottom: 30px;
+	line-height: 40px;
+	width: fit-content;
 }
 
-h1, h2, h3 {
+.second {
+	text-align: center;
 	font-size: 55px;
-	text-align: left;
-	color: white;
+	padding-top, padding-bottom: 30px;
+	line-height: 40px;
+	width: fit-content;
+
+}
+.third {
+	display: inline-block;
+	text-align: center;
+	font-size: 55px;
+	padding-top, padding-bottom: 30px;
+	line-height: 40px;
+	width: fit-content;
+}
+
+
+h1 .indexClass, h2 .indexClass, h3 .indexClass {
+	font-size: 55px;
+	text-align: center;
 	padding-top, padding-bottom: 30px;
 	line-height: 40px;
 }
-h2 {
-	display: inline-block;
-	vertical-align: middle;
-}
-p {
+ .indexClass{
 	font-size: 35px;
-	text-align: right;
+	text-align: center;
 	color: white;
-	margin-right: 0px;
-	/*margin-left: 50px;*/
+	margin: auto;
 	display: inline-block;
 	vertical-align: middle;
 }
+
 .titlebox {
 	background-color: #FF369B;
-	margin-left: 25%;
-	margin-right: 25%;
+	margin: auto;
+	margin-left: auto;
+	margin-right: auto;
 	margin-top: 10%;
-	/*margin-top: 20%;
 	margin-bottom: 20%;
-	height: 60%;*/
+	height: 60%;
 	text-align: center;
-	left: 50%;
-	right: 50%;
+	/*left: 50%;
+	right: 50%;*/
 	padding-top: 20px;
 	padding-bottom: 20px;
 	padding-left: 50px;
@@ -40,11 +66,6 @@ p {
 	font-family: sans-serif;
 	vertical-align: middle;
 } 
-.third {
-	/*display: inline-block;*/
-	/*text-align: center;*/
-	width: fit-content;
-}
 .buttons {
 	margin-top: 40px;
 	vertical-align: middle;
@@ -69,4 +90,113 @@ p {
 .button2 {
 	display: inline-block;
 	margin-left: 30px;
+}
+/*nyc*/
+.header {
+	background-color: #FF369B ;
+}
+.header {
+	margin: auto;
+	max-width: fit-content;
+	height: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	padding-inline: 20px;
+	display: inline-block;
+}
+
+.nycClass{
+	text-align: center;
+}
+h1 .nycClass{
+	text-align: center;
+	/*padding: 20px;*/
+	font-size: 30px;
+	/*margin-: 10px;*/
+}
+#middle {
+	text-align: center;
+	width: fit-content;
+}
+#nat .insurance {
+	width: 50%;
+	margin-right: auto;
+	margin-left: auto;
+}
+#ny .insurance {
+	margin: 15px;
+	width: 30%;
+}
+.insurance {
+	display: inline-block;
+	background-color: #FF369B;
+	border-width: 10px;
+	border-color: black;
+	padding: 10px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+h2 .nycClass {
+	font-size: 25px;
+}
+h3 .nycClass {
+	font-size: 25px;
+}
+
+h4 .nycClass  h5 .nycClass {
+	font-size: 20px;
+}
+
+.whitebox {
+	background-color: whitesmoke;
+	margin-top: 7px;
+	padding: 7px;
+
+}
+.horiz {
+	width: fit-content;
+	text-align: center;
+	padding: auto;
+	margin: auto;
+}
+.links {
+	display: inline-block;
+	text-align: center;
+}
+.univ {
+	text-align: center;
+	margin: auto;
+	background-color: #FF369B;
+	padding: 20px;
+	width: fit-content;
+}
+.u {
+	text-align: center;
+}
+h2 .nationClass {
+	font-size: 40;
+}
+h3 .nationClass {
+	font-size: 40;
+}
+
+h4 .u{
+	font-size: 40;
+}
+p {
+	font-size: 25px;
+	color: black;
+}
+a {
+	font-size: 20px;
+	color: black;
+}
+#one {
+	font-size: 15px;
+}
+button {
+	background-color: #FF369B;
+	color: white;
 }
