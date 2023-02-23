@@ -1,12 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,800;1,400&display=swap');
 * {
 	box-sizing: border-box;
-	margin-left, margin-right: 20px;
-	margin-top, margin-bottom: 10px;
+	margin-left, margin-right: 15px;
+	margin-top, margin-bottom: 15px;
 }
-h1, h2, h3, h4, h5 {
-	color: white;
-	font-family: sans-serif;
-}
+
+
+/*
 .first {
 	text-align: center;
 	font-size: 55px;
@@ -32,8 +32,9 @@ h1, h2, h3, h4, h5 {
 	width: fit-content;
 }
 
+*/
 
-h1 .indexClass, h2 .indexClass, h3 .indexClass {
+/*h1 .indexClass, h2 .indexClass, h3 .indexClass {
 	font-size: 55px;
 	text-align: center;
 	padding-top, padding-bottom: 30px;
@@ -46,16 +47,13 @@ h1 .indexClass, h2 .indexClass, h3 .indexClass {
 	margin: auto;
 	display: inline-block;
 	vertical-align: middle;
-}
+}*/
 
 .titlebox {
-	background-color: #FF369B;
-	margin: auto;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 10%;
-	margin-bottom: 20%;
-	height: 60%;
+	background-color: white;
+	margin-left, margin-right: auto;
+	margin-top, margin-bottom: 20px;
+	/*height: 60%;
 	text-align: center;
 	/*left: 50%;
 	right: 50%;*/
@@ -64,8 +62,89 @@ h1 .indexClass, h2 .indexClass, h3 .indexClass {
 	padding-left: 50px;
 	padding-right: 50px;
 	font-family: sans-serif;
-	vertical-align: middle;
+	border-color: #FF369B;
+	border-width: 10px;
+	border-style: solid;
+	/*vertical-align: middle;*/
 } 
+.backgroundpink{
+	background-color: #FF369B;
+	padding: 30px;
+	margin-left: 10%;
+	margin-right: 10%;
+	text-align: center;
+	width: 80%;
+}
+#firsth1{
+	font-size: 50px;
+	text-align: center;
+	margin: auto;
+	color:black;
+}
+.column{
+	text-align: center;
+	max-width: fit-content;
+	padding: 10px;
+	margin-top: 10px;
+	margin-left, margin-right: 30px;
+	height: fit-content;
+}
+.column1{
+	display: inline-block;
+	margin-top, margin-bottom: 20px;
+	margin-left, margin-right: auto;
+	padding: 15px;
+	background-color: #FF369B;
+	text-align: center;
+	height: fit-content;
+	max-width: fit-content;
+	color: white;
+	font-size: 30px;
+	border-color: white;
+	border-width: 10px;
+	border-style: solid;
+
+}
+.column2{
+	font-family: oswald;
+	display: inline-block;
+	margin-left, margin-right: auto;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	border-color: #FF369B;
+	border-style: solid;
+	border-width: 10px;
+	background-color: white;
+	text-align: center;
+	padding: 20px;
+	max-width: fit-content;
+}
+
+#line1 {
+	text-align: center;
+	font-size: 25px;
+	color: black;
+	font-weight: bold;
+}
+.list {
+	text-align: center;
+	font-size: 25px;
+	color: white;
+	line-height: 20px;
+}
+ #line2 {
+ 	text-emphasis: black;
+ 	font-weight: bold;
+	text align: center;
+	font-size: 30px;
+	color: white;
+}
+#line3{
+	text-align: center;
+	font-size: 35px;
+	font-weight: bold;
+	color: white;
+}
 .buttons {
 	margin-top: 40px;
 	vertical-align: middle;
@@ -91,7 +170,7 @@ h1 .indexClass, h2 .indexClass, h3 .indexClass {
 	display: inline-block;
 	margin-left: 30px;
 }
-/*nyc*/
+/
 .header {
 	background-color: #FF369B ;
 }
@@ -109,10 +188,12 @@ h1 .indexClass, h2 .indexClass, h3 .indexClass {
 .nycClass{
 	text-align: center;
 }
-h1 .nycClass{
+#nych1{
 	text-align: center;
+	color: black;
 	/*padding: 20px;*/
-	font-size: 30px;
+	font-size: 35px;
+	font-weight: bold;
 	/*margin-: 10px;*/
 }
 #middle {
@@ -138,15 +219,13 @@ h1 .nycClass{
 	margin-bottom: 15px;
 }
 
-h2 .nycClass {
+.nychClass {
 	font-size: 25px;
+	color: white;
 }
-h3 .nycClass {
-	font-size: 25px;
-}
-
-h4 .nycClass  h5 .nycClass {
+.nycClass {
 	font-size: 20px;
+	color: black;
 }
 
 .whitebox {
@@ -154,6 +233,11 @@ h4 .nycClass  h5 .nycClass {
 	margin-top: 7px;
 	padding: 7px;
 
+}
+.header{
+	border-style: solid;
+	border-width: 10px;
+	border-color: #FF369B;
 }
 .horiz {
 	width: fit-content;
@@ -172,8 +256,13 @@ h4 .nycClass  h5 .nycClass {
 	padding: 20px;
 	width: fit-content;
 }
-.u {
+.nath {
 	text-align: center;
+	font-size: 30px;
+	color: white;
+}
+#nath1 {
+	font-size: 35px;
 }
 h2 .nationClass {
 	font-size: 40;
