@@ -6,51 +6,111 @@
 	<title>Healthcare Resources Nationwide</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body class="nationClass">
-	<div class = "horiz">
-		<div class ="links">
-			<a href = "index.html"><button>HOME</button></a>
+<body>
+	<div class="flexContainer">
+		<div class="header">
+			<h1 class="headerText">Nationwide Healthcare Resources</h1>
+			<div class="button">
+				<a class="blackButton" href="index.html">Home</a>
+			</div>
 		</div>
-		<div class ="header">
-			<h1 id="nath1"> National Resources </h1>
+		<div class="ribbon">
 		</div>
-		<div class ="links">
-			<a href = "nyc.html"><button>NYC</button></a>
-		</div>
-	</div>
-	<div class ="horiz">
-		<div class ="insurance" id="nat">
-			<h3 class="nath"> Locate Free or Low-Cost Services Near You</h3>
-			<div class = "whitebox">
-				<div>
-					<a href="https://findahealthcenter.hrsa.gov/"> Find Health Centers Near You Search</a> <p id=one>(Cost is determined by income)</p>
+		<div class= columnParent>
+			<div class="column">
+				<img class="columnImg" src="health.jpg"/>
+				<p class="columnTitle">Resources, Organizations, and Links </p>
+				<div class="button">
+					<a class="blackButton" href="#allStates">Go</a>
 				</div>
-				<div>
-					<a href="https://www.freeclinics.com/"> Find Free Health Clinics Near You </a>
-				</div>
-				<div>
-					<a href="https://nafcclinics.org/"> National Association of Free and Charitable Clinics</a>
-				</div>
-				<div>
-					<a href="https://freeclinicdirectory.org/"> Free Clinic Directory</a>
+			</div>
+			<div class="column">
+				<img class="columnImg" src="map.jpg"/>
+				<p class="columnTitle">Low-Cost and Free Facilities by State</p>
+				<div class="button">
+					<a class="blackButton" href="#statebystate">Go</a>
 				</div>
 			</div>
 		</div>
-	</div>
-	<div class="univ">
-		<h4 class="nath">Why does the U.S. Need Universal Healthcare?</h4>
-		<div class = "whitebox">
-			<div class="u">
-				<a href="https://www.who.int/health-topics/universal-health-coverage#tab=tab_1"> What is Universal Health Coverage? </a>
-			</div>
-			<div class="u">
-				<a href="https://health.usnews.com/health-care/for-better/articles/the-case-for-universal-health-care"> Common Debates about UHC in The U.S. Addressed</a>
-			</div>
-			<div class="u">
-				<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2137072/"> How might UHC be implemented in the U.S.?</a>
-			</div>
+		<div class="space">
 		</div>
-	</div>
+		<div class="scrollParent">
+			<div id="nationLinks">
+				<div class="hContainer">
+					<a id="allStates">
+						<p class="sectionTitle">Resources, Organization and Links Nationwide</p>
+						<p class="sectionSubtitle"> </p>
+					</a>
+				</div>
+				<div class="columnParent">
+					<div class="stateBody">
+						<a class="links" href="https://findahealthcenter.hrsa.gov/"> Find Health Centers Near You Search</a>
+						<a class="links" href="https://www.freeclinics.com/"> Find Free Health Clinics Near You </a>
+						<a class="links" href="https://nafcclinics.org/"> National Association of Free and Charitable Clinics</a>
+						<a class="links" href="https://freeclinicdirectory.org/"> Free Clinic Directory</a>
+					</div>
+				</div>
+			</div>
 
+			<div class=sect>
+				<div class="hContainer">
+					<a id="statebystate">
+						<p class="sectionTitle">State-Specific Resources and Clinics</p>
+					</a>
+				</div>>
+				<div class="table">
+					<div class="state">
+						<p class="stateName">Alabama</p>
+						<div class="stateBody">
+							<p>Insurance</p>
+							<a href="https://www.alabamapublichealth.gov/allkids/">ALL Kids</a>
+							<a href="https://www.healthinsurance.org/states/alabama/">All options by zip code</a>
+							<p>Health Clinics</p>
+							<a href="https://alabamaclinics.org/"> Alabama Association of Free and Charitable Clinics</a>
+						</div>
+						</div>
+					</div>
+					<div class="state">
+						<p class="stateName">Alaska</p>
+						<div class="stateBody">
+							<a href="https://anchorageprojectaccess.org/">Anchorage Project Access</a>
+						</div>
+					</div>
+					<div class="state">
+						<p class="stateName">Arizona</p>
+						<div class="stateBody">
+							<a href="https://www.amissionofmercy.org/arizona/clinic-schedule/">A Mission of Mercy Arizona Clinics</a>
+							<a href="https://www.azdhs.gov/prevention/health-systems-development/sliding-fee-schedule/index.php"> Arizona Dept of Health Services Sliding Fee Schedule Clinics </a>
+						</div>
+					</div>
+					<div class="state">
+						<p class="stateName">Arkansas</p>
+						<div class="stateBody">
+							<a href="https://www.freeclinics.com/sta/arkansas">Search by Zip Code</a>
+						</div>
+					</div>
+					</div>
+					<div class="state">
+						<p class="stateName">California</p>
+						<div class="stateBody">
+							<a href="https://www.californiafreeclinics.org/member-clinics.html">California Association of Free and Charitable Clinics</a>
+						</div>
+					</div>
+					<div class="state">
+						<p class="stateName">Colorado</p>
+						<div class="stateBody">
+						</div>
+					</div>
+					<div class="state">
+						<p class="stateName"></p>
+						<div class="stateBody">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="space">
+		</div>
+	</div>
 </body>
 </html>
